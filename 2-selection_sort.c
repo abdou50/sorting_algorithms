@@ -1,12 +1,14 @@
 #include "sort.h"
 /**
- * @brief
- *
+ *selection_sort - function
+ *@array: tableau
+ *@size: size
  */
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, min;
 	int  temp;
+
 	for (i = 0; i < size; i++)
 	{
 		min = i;
@@ -14,7 +16,7 @@ void selection_sort(int *array, size_t size)
 		{
 			if (array[j] < array[min])
 				min = j;
-			if(min != i)
+			if (min != i)
 			{
 				temp = array[min];
 				array[min] = array[i];
