@@ -1,7 +1,7 @@
 #ifndef sort_h
 #define sort_h
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <math.h>
 #include <string.h>
 /**
